@@ -1,0 +1,1376 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"39 ./clcd.h
+[; ;./clcd.h: 39: void init_clcd(void);
+[v _init_clcd `(v ~T0 @X0 0 ef ]
+"33 ./matrix_keypad.h
+[; ;./matrix_keypad.h: 33: void init_matrix_keypad(void);
+[v _init_matrix_keypad `(v ~T0 @X0 0 ef ]
+"2969 /opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2969: extern volatile __bit TRISC2 __attribute__((address(0x43A)));
+[v _TRISC2 `Vb ~T0 @X0 0 e@1082 ]
+"2714
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2714: extern volatile __bit RC2 __attribute__((address(0x3A)));
+[v _RC2 `Vb ~T0 @X0 0 e@58 ]
+"2966
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2966: extern volatile __bit TRISC1 __attribute__((address(0x439)));
+[v _TRISC1 `Vb ~T0 @X0 0 e@1081 ]
+"2711
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2711: extern volatile __bit RC1 __attribute__((address(0x39)));
+[v _RC1 `Vb ~T0 @X0 0 e@57 ]
+"47 ./main.h
+[; ;./main.h: 47: void init_timer2(void);
+[v _init_timer2 `(v ~T0 @X0 0 ef ]
+"2633 /opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2633: extern volatile __bit PEIE __attribute__((address(0x5E)));
+[v _PEIE `Vb ~T0 @X0 0 e@94 ]
+"2573
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2573: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+[p mainexit ]
+"32 ./matrix_keypad.h
+[; ;./matrix_keypad.h: 32: unsigned char read_matrix_keypad(unsigned char mode);
+[v _read_matrix_keypad `(uc ~T0 @X0 0 ef1`uc ]
+"42 ./main.h
+[; ;./main.h: 42: void clear_screen(void);
+[v _clear_screen `(v ~T0 @X0 0 ef ]
+"41 ./clcd.h
+[; ;./clcd.h: 41: void clcd_print(const char *str, unsigned char addr);
+[v _clcd_print `(v ~T0 @X0 0 ef2`*Cuc`uc ]
+[v F164 `(v ~T0 @X0 1 tf1`ul ]
+"20 /opt/microchip/xc8/v3.00/pic/include/builtins.h
+[v __delay `JF164 ~T0 @X0 0 e ]
+[p i __delay ]
+"2906 /opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2906: extern volatile __bit TMR2ON __attribute__((address(0x92)));
+[v _TMR2ON `Vb ~T0 @X0 0 e@146 ]
+"43 ./main.h
+[; ;./main.h: 43: void power_on_screen(void);
+[v _power_on_screen `(v ~T0 @X0 0 ef ]
+"44
+[; ;./main.h: 44: void menu_display_screen(void);
+[v _menu_display_screen `(v ~T0 @X0 0 ef ]
+"45
+[; ;./main.h: 45: void set_time(unsigned char key,int reset_flag);
+[v _set_time `(v ~T0 @X0 0 ef2`uc`i ]
+"48
+[; ;./main.h: 48: void set_temp(unsigned char key,int reset_flag);
+[v _set_temp `(v ~T0 @X0 0 ef2`uc`i ]
+"46
+[; ;./main.h: 46: void time_display_screen(void);
+[v _time_display_screen `(v ~T0 @X0 0 ef ]
+"40 ./clcd.h
+[; ;./clcd.h: 40: void clcd_putch(const char data, unsigned char addr);
+[v _clcd_putch `(v ~T0 @X0 0 ef2`Cuc`uc ]
+"42
+[; ;./clcd.h: 42: void clcd_write(unsigned char byte, unsigned char mode);
+[v _clcd_write `(v ~T0 @X0 0 ef2`uc`uc ]
+"54 /opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;/opt/microchip/mplabx/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8/pic/include/proc/pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"11 shank.c
+[; ;shank.c: 11:     RC2 = 0;
+[p x WDTE  =  OFF ]
+"13
+[; ;shank.c: 13:    TRISC1 = 0;
+[v _sec `uc ~T0 @X0 1 e ]
+[i _sec
+-> -> 0 `i `uc
+]
+[v _min `uc ~T0 @X0 1 e ]
+[i _min
+-> -> 0 `i `uc
+]
+[v _flag `uc ~T0 @X0 1 e ]
+[i _flag
+-> -> 0 `i `uc
+]
+"14
+[; ;shank.c: 14:    RC1 = 0;
+[v _operation_flag `i ~T0 @X0 1 e ]
+[i _operation_flag
+-> 1 `i
+]
+"15
+[; ;shank.c: 15: 
+[v _init_config `(v ~T0 @X0 1 sf ]
+{
+[e :U _init_config ]
+[f ]
+"17
+[; ;shank.c: 17:    init_timer2();
+[e ( _init_clcd ..  ]
+"20
+[; ;shank.c: 20:     GIE = 1;
+[e ( _init_matrix_keypad ..  ]
+"23
+[; ;shank.c: 23: void main(void) {
+[e = _TRISC2 -> -> 0 `i `b ]
+"24
+[; ;shank.c: 24:     init_config();
+[e = _RC2 -> -> 0 `i `b ]
+"26
+[; ;shank.c: 26: 
+[e = _TRISC1 -> -> 0 `i `b ]
+"27
+[; ;shank.c: 27: 
+[e = _RC1 -> -> 0 `i `b ]
+"30
+[; ;shank.c: 30:     while (1) {
+[e ( _init_timer2 ..  ]
+"32
+[; ;shank.c: 32:         if(operation_flag == 0x02)
+[e = _PEIE -> -> 1 `i `b ]
+"33
+[; ;shank.c: 33:         {
+[e = _GIE -> -> 1 `i `b ]
+"34
+[; ;shank.c: 34: 
+[e :UE 99 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"36
+[; ;shank.c: 36:         {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"37
+[; ;shank.c: 37:             operation_flag = 0x03;
+[e ( _init_config ..  ]
+"41
+[; ;shank.c: 41:             _delay((unsigned long)((3000)*(20000000/4000.0)));
+[v _key `uc ~T0 @X0 1 a ]
+"42
+[; ;shank.c: 42:             clear_screen();
+[v _reset_flag `i ~T0 @X0 1 a ]
+"43
+[; ;shank.c: 43:         }
+[e :U 102 ]
+{
+"44
+[; ;shank.c: 44:         else if(key == 2)
+[e = _key ( _read_matrix_keypad (1 -> -> 1 `i `uc ]
+"45
+[; ;shank.c: 45:         {
+[e $ ! == _operation_flag -> 2 `i 104  ]
+"46
+[; ;shank.c: 46:             operation_flag = 0x04;
+{
+"48
+[; ;shank.c: 48:             clear_screen();
+[e $ ! == -> _key `i -> 1 `i 105  ]
+"49
+[; ;shank.c: 49: 
+{
+"50
+[; ;shank.c: 50:         }
+[e = _operation_flag -> 3 `i ]
+"51
+[; ;shank.c: 51:         else if(key == 3)
+[e = _reset_flag -> 16 `i ]
+"52
+[; ;shank.c: 52:         {
+[e ( _clear_screen ..  ]
+"53
+[; ;shank.c: 53:             operation_flag = 0x05;
+[e ( _clcd_print (2 , :s 1C -> + -> 192 `i -> 0 `i `uc ]
+"54
+[; ;shank.c: 54:             reset_flag = 0x10;
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"55
+[; ;shank.c: 55:             clear_screen();
+[e ( _clear_screen ..  ]
+"56
+[; ;shank.c: 56: 
+}
+[e $U 106  ]
+"57
+[; ;shank.c: 57:         }
+[e :U 105 ]
+[e $ ! == -> _key `i -> 2 `i 107  ]
+"58
+[; ;shank.c: 58:         else if(key == 4)
+{
+"59
+[; ;shank.c: 59:         {
+[e = _operation_flag -> 4 `i ]
+"60
+[; ;shank.c: 60:             sec = 30;
+[e = _reset_flag -> 16 `i ]
+"61
+[; ;shank.c: 61:             min = 0;
+[e ( _clear_screen ..  ]
+"63
+[; ;shank.c: 63:              TMR2ON = 1;
+}
+[e $U 108  ]
+"64
+[; ;shank.c: 64:              clear_screen();
+[e :U 107 ]
+[e $ ! == -> _key `i -> 3 `i 109  ]
+"65
+[; ;shank.c: 65:              operation_flag = 0x07;
+{
+"66
+[; ;shank.c: 66:         }
+[e = _operation_flag -> 5 `i ]
+"67
+[; ;shank.c: 67:        }
+[e = _reset_flag -> 16 `i ]
+"68
+[; ;shank.c: 68:        else if(operation_flag == 0x07)
+[e ( _clear_screen ..  ]
+"70
+[; ;shank.c: 70:             if(key == 4)
+}
+[e $U 110  ]
+"71
+[; ;shank.c: 71:             {
+[e :U 109 ]
+[e $ ! == -> _key `i -> 4 `i 111  ]
+"72
+[; ;shank.c: 72:                sec = sec + 30;
+{
+"73
+[; ;shank.c: 73:                if(sec > 59)
+[e = _sec -> -> 30 `i `uc ]
+"74
+[; ;shank.c: 74:                {
+[e = _min -> -> 0 `i `uc ]
+"75
+[; ;shank.c: 75:                    min++;
+[e = _RC2 -> -> 1 `i `b ]
+"76
+[; ;shank.c: 76:                    sec = sec - 60;
+[e = _TMR2ON -> -> 1 `i `b ]
+"77
+[; ;shank.c: 77:                }
+[e ( _clear_screen ..  ]
+"78
+[; ;shank.c: 78:             }
+[e = _operation_flag -> 7 `i ]
+"79
+[; ;shank.c: 79:             else if(key == 5)
+}
+[e :U 111 ]
+[e :U 110 ]
+[e :U 108 ]
+[e :U 106 ]
+"80
+[; ;shank.c: 80:             {
+}
+[e $U 112  ]
+"81
+[; ;shank.c: 81:                 operation_flag = 0x09;
+[e :U 104 ]
+[e $ ! == _operation_flag -> 7 `i 113  ]
+"82
+[; ;shank.c: 82:             }
+{
+"83
+[; ;shank.c: 83:             else if(key == 6)
+[e $ ! == -> _key `i -> 4 `i 114  ]
+"84
+[; ;shank.c: 84:             {
+{
+"85
+[; ;shank.c: 85:                 operation_flag = 0x0A;
+[e = _sec -> + -> _sec `i -> 30 `i `uc ]
+"86
+[; ;shank.c: 86:                 clear_screen();
+[e $ ! > -> _sec `i -> 59 `i 115  ]
+"87
+[; ;shank.c: 87: 
+{
+"88
+[; ;shank.c: 88:             }
+[e ++ _min -> -> 1 `i `uc ]
+"89
+[; ;shank.c: 89:         }
+[e = _sec -> - -> _sec `i -> 60 `i `uc ]
+"90
+[; ;shank.c: 90:         else if(operation_flag == 0x09)
+}
+[e :U 115 ]
+"91
+[; ;shank.c: 91:         {
+}
+[e $U 116  ]
+"92
+[; ;shank.c: 92:            if(key == 4)
+[e :U 114 ]
+[e $ ! == -> _key `i -> 5 `i 117  ]
+"93
+[; ;shank.c: 93:            {
+{
+"94
+[; ;shank.c: 94:                RC2 = 1;
+[e = _operation_flag -> 9 `i ]
+"95
+[; ;shank.c: 95:                TMR2ON = 1;
+}
+[e $U 118  ]
+"96
+[; ;shank.c: 96:                operation_flag = 0x07;
+[e :U 117 ]
+[e $ ! == -> _key `i -> 6 `i 119  ]
+"97
+[; ;shank.c: 97:            }
+{
+"98
+[; ;shank.c: 98:         }
+[e = _operation_flag -> 10 `i ]
+"99
+[; ;shank.c: 99: 
+[e ( _clear_screen ..  ]
+"101
+[; ;shank.c: 101:        switch(operation_flag)
+}
+[e :U 119 ]
+[e :U 118 ]
+[e :U 116 ]
+"102
+[; ;shank.c: 102:        {
+}
+[e $U 120  ]
+"103
+[; ;shank.c: 103:            case 0x01:
+[e :U 113 ]
+[e $ ! == _operation_flag -> 9 `i 121  ]
+"104
+[; ;shank.c: 104:                power_on_screen();
+{
+"105
+[; ;shank.c: 105:                operation_flag = 0x02 ;
+[e $ ! == -> _key `i -> 4 `i 122  ]
+"106
+[; ;shank.c: 106:                clear_screen();
+{
+"107
+[; ;shank.c: 107:                  break;
+[e = _RC2 -> -> 1 `i `b ]
+"108
+[; ;shank.c: 108:            case 0x02:
+[e = _TMR2ON -> -> 1 `i `b ]
+"109
+[; ;shank.c: 109:                menu_display_screen();
+[e = _operation_flag -> 7 `i ]
+"110
+[; ;shank.c: 110:                break;
+}
+[e :U 122 ]
+"111
+[; ;shank.c: 111:            case 0x04:
+}
+[e :U 121 ]
+[e :U 120 ]
+[e :U 112 ]
+"114
+[; ;shank.c: 114:            case 0x03:
+[e $U 124  ]
+"115
+[; ;shank.c: 115:                set_time(key, reset_flag);
+{
+"116
+[; ;shank.c: 116:                break;
+[e :U 125 ]
+"117
+[; ;shank.c: 117:            case 0x05:
+[e ( _power_on_screen ..  ]
+"118
+[; ;shank.c: 118:                if(flag == 0)
+[e = _operation_flag -> 2 `i ]
+"119
+[; ;shank.c: 119:                {
+[e ( _clear_screen ..  ]
+"120
+[; ;shank.c: 120:                    set_temp(key, reset_flag);
+[e $U 123  ]
+"121
+[; ;shank.c: 121:                    if(flag == 1)
+[e :U 126 ]
+"122
+[; ;shank.c: 122:                    {
+[e ( _menu_display_screen ..  ]
+"123
+[; ;shank.c: 123:                        clear_screen();
+[e $U 123  ]
+"124
+[; ;shank.c: 124:                       reset_flag = 0x10;
+[e :U 127 ]
+"125
+[; ;shank.c: 125:                       continue;
+[e ( _set_time (2 , _key _reset_flag ]
+"126
+[; ;shank.c: 126:                    }
+[e $U 123  ]
+"127
+[; ;shank.c: 127:                }
+[e :U 128 ]
+"128
+[; ;shank.c: 128:                else if(flag == 1)
+[e ( _set_time (2 , _key _reset_flag ]
+"129
+[; ;shank.c: 129:                {
+[e $U 123  ]
+"130
+[; ;shank.c: 130:                    set_time(key, reset_flag);
+[e :U 129 ]
+"131
+[; ;shank.c: 131:                }
+[e $ ! == -> _flag `i -> 0 `i 130  ]
+"132
+[; ;shank.c: 132: 
+{
+"133
+[; ;shank.c: 133:                break;
+[e ( _set_temp (2 , _key _reset_flag ]
+"134
+[; ;shank.c: 134:            case 0x07:
+[e $ ! == -> _flag `i -> 1 `i 131  ]
+"135
+[; ;shank.c: 135:                time_display_screen();
+{
+"136
+[; ;shank.c: 136:                break;
+[e ( _clear_screen ..  ]
+"137
+[; ;shank.c: 137:            case 0x09:
+[e = _reset_flag -> 16 `i ]
+"138
+[; ;shank.c: 138:                RC2 = 0;
+[e $U 101  ]
+"139
+[; ;shank.c: 139:                TMR2ON = 0;
+}
+[e :U 131 ]
+"140
+[; ;shank.c: 140:                break;
+}
+[e $U 132  ]
+"141
+[; ;shank.c: 141:            case 0x0A:
+[e :U 130 ]
+[e $ ! == -> _flag `i -> 1 `i 133  ]
+"142
+[; ;shank.c: 142:                RC2 = 0;
+{
+"143
+[; ;shank.c: 143:                TMR2ON = 0;
+[e ( _set_time (2 , _key _reset_flag ]
+"144
+[; ;shank.c: 144:                operation_flag = 0x02 ;
+}
+[e :U 133 ]
+[e :U 132 ]
+"146
+[; ;shank.c: 146:         }
+[e $U 123  ]
+"147
+[; ;shank.c: 147:        reset_flag = 0x0F;
+[e :U 134 ]
+"148
+[; ;shank.c: 148: 
+[e ( _time_display_screen ..  ]
+"149
+[; ;shank.c: 149:     }
+[e $U 123  ]
+"150
+[; ;shank.c: 150: }
+[e :U 135 ]
+"151
+[; ;shank.c: 151: 
+[e = _RC2 -> -> 0 `i `b ]
+"152
+[; ;shank.c: 152: void time_display_screen(void)
+[e = _TMR2ON -> -> 0 `i `b ]
+"153
+[; ;shank.c: 153: {
+[e $U 123  ]
+"154
+[; ;shank.c: 154: 
+[e :U 136 ]
+"155
+[; ;shank.c: 155:     clcd_print(" TIME = ", (0x80 + 0));
+[e = _RC2 -> -> 0 `i `b ]
+"156
+[; ;shank.c: 156: 
+[e = _TMR2ON -> -> 0 `i `b ]
+"157
+[; ;shank.c: 157:      clcd_putch( min/10 + '0', (0x80 + 9));
+[e = _operation_flag -> 2 `i ]
+"158
+[; ;shank.c: 158:     clcd_putch( min%10 + '0', (0x80 + 10));
+[e $U 123  ]
+"159
+[; ;shank.c: 159:     clcd_putch(':', (0x80 + 11));
+}
+[e $U 123  ]
+[e :U 124 ]
+[e [\ _operation_flag , $ -> 1 `i 125
+ , $ -> 2 `i 126
+ , $ -> 4 `i 127
+ , $ -> 3 `i 128
+ , $ -> 5 `i 129
+ , $ -> 7 `i 134
+ , $ -> 9 `i 135
+ , $ -> 10 `i 136
+ 123 ]
+[e :U 123 ]
+"160
+[; ;shank.c: 160: 
+[e = _reset_flag -> 15 `i ]
+"162
+[; ;shank.c: 162:     clcd_putch( sec/10 + '0', (0x80 + 12));
+}
+[e :U 101 ]
+[e $U 102  ]
+[e :U 103 ]
+"163
+[; ;shank.c: 163:     clcd_putch( sec%10 + '0', (0x80 + 13));
+[e :UE 100 ]
+}
+"165
+[; ;shank.c: 165: 
+[v _time_display_screen `(v ~T0 @X0 1 ef ]
+"166
+[; ;shank.c: 166:     clcd_print(" 4.Start/Resume", (0xC0 + 0));
+{
+[e :U _time_display_screen ]
+[f ]
+"168
+[; ;shank.c: 168:     clcd_print(" 6.Stop", (0xD0 + 0));
+[e ( _clcd_print (2 , :s 2C -> + -> 128 `i -> 0 `i `uc ]
+"170
+[; ;shank.c: 170:     if(sec == 0 && min == 0)
+[e ( _clcd_putch (2 , -> + -> / -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 128 `i -> 9 `i `uc ]
+"171
+[; ;shank.c: 171:     {
+[e ( _clcd_putch (2 , -> + -> % -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 128 `i -> 10 `i `uc ]
+"172
+[; ;shank.c: 172:         clear_screen();
+[e ( _clcd_putch (2 , -> -> 58 `ui `uc -> + -> 128 `i -> 11 `i `uc ]
+"175
+[; ;shank.c: 175:         _delay((unsigned long)((3000)*(20000000/4000.0)));
+[e ( _clcd_putch (2 , -> + -> / -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 128 `i -> 12 `i `uc ]
+"176
+[; ;shank.c: 176:         clear_screen();
+[e ( _clcd_putch (2 , -> + -> % -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 128 `i -> 13 `i `uc ]
+"179
+[; ;shank.c: 179: 
+[e ( _clcd_print (2 , :s 3C -> + -> 192 `i -> 0 `i `uc ]
+"180
+[; ;shank.c: 180:         TMR2ON = 0;
+[e ( _clcd_print (2 , :s 4C -> + -> 144 `i -> 0 `i `uc ]
+"181
+[; ;shank.c: 181:         operation_flag = 0x02 ;
+[e ( _clcd_print (2 , :s 5C -> + -> 208 `i -> 0 `i `uc ]
+"183
+[; ;shank.c: 183:     }
+[e $ ! && == -> _sec `i -> 0 `i == -> _min `i -> 0 `i 138  ]
+"184
+[; ;shank.c: 184: }
+{
+"185
+[; ;shank.c: 185: void clear_screen(void)
+[e ( _clear_screen ..  ]
+"186
+[; ;shank.c: 186: {
+[e ( _clcd_print (2 , :s 6C -> + -> 192 `i -> 0 `i `uc ]
+"187
+[; ;shank.c: 187:     clcd_write(0x01, 0) ;
+[e = _RC1 -> -> 1 `i `b ]
+"188
+[; ;shank.c: 188:     _delay((unsigned long)((500)*(20000000/4000000.0))) ;
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"189
+[; ;shank.c: 189: }
+[e ( _clear_screen ..  ]
+"190
+[; ;shank.c: 190: void power_on_screen(void)
+[e = _RC1 -> -> 0 `i `b ]
+"191
+[; ;shank.c: 191: {
+[e = _RC2 -> -> 0 `i `b ]
+"193
+[; ;shank.c: 193: 
+[e = _TMR2ON -> -> 0 `i `b ]
+"194
+[; ;shank.c: 194:    for (i = 0; i < 16; i++)
+[e = _operation_flag -> 2 `i ]
+"196
+[; ;shank.c: 196: 
+}
+[e :U 138 ]
+"197
+[; ;shank.c: 197:        clcd_putch(0xFF, (0x80 + i));
+[e :UE 137 ]
+}
+"198
+[; ;shank.c: 198:        _delay((unsigned long)((100)*(20000000/4000.0)));
+[v _clear_screen `(v ~T0 @X0 1 ef ]
+"199
+[; ;shank.c: 199: 
+{
+[e :U _clear_screen ]
+[f ]
+"200
+[; ;shank.c: 200:    }
+[e ( _clcd_write (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"201
+[; ;shank.c: 201: 
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"202
+[; ;shank.c: 202: 
+[e :UE 139 ]
+}
+"203
+[; ;shank.c: 203:   clcd_print(" Powering ON ", (0xC0 + 0)) ;
+[v _power_on_screen `(v ~T0 @X0 1 ef ]
+"204
+[; ;shank.c: 204:   clcd_print(" Microwave Oven ", (0x90 + 0));
+{
+[e :U _power_on_screen ]
+[f ]
+"205
+[; ;shank.c: 205: 
+[v _i `uc ~T0 @X0 1 a ]
+"207
+[; ;shank.c: 207:   for (i = 0; i < 16; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 16 `i 141  ]
+[e $U 142  ]
+[e :U 141 ]
+"208
+[; ;shank.c: 208:    {
+{
+"210
+[; ;shank.c: 210:         _delay((unsigned long)((100)*(20000000/4000.0)));
+[e ( _clcd_putch (2 , -> -> 255 `i `uc -> + -> 128 `i -> _i `i `uc ]
+"211
+[; ;shank.c: 211:   }
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"213
+[; ;shank.c: 213: 
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 16 `i 141  ]
+[e :U 142 ]
+}
+"216
+[; ;shank.c: 216: }
+[e ( _clcd_print (2 , :s 7C -> + -> 192 `i -> 0 `i `uc ]
+"217
+[; ;shank.c: 217: 
+[e ( _clcd_print (2 , :s 8C -> + -> 144 `i -> 0 `i `uc ]
+"220
+[; ;shank.c: 220: void menu_display_screen(void)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 16 `i 144  ]
+[e $U 145  ]
+[e :U 144 ]
+"221
+[; ;shank.c: 221: {
+{
+"222
+[; ;shank.c: 222:  clcd_print("1.Micro", (0x80 + 0));
+[e ( _clcd_putch (2 , -> -> 255 `i `uc -> + -> 208 `i -> _i `i `uc ]
+"223
+[; ;shank.c: 223:  clcd_print("2.Grill", (0xC0 + 0));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"224
+[; ;shank.c: 224:  clcd_print("3.Convection", (0x90 + 0));
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 16 `i 144  ]
+[e :U 145 ]
+}
+"227
+[; ;shank.c: 227: 
+[e ( __delay (1 -> * -> -> 3000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"229
+[; ;shank.c: 229: {
+[e :UE 140 ]
+}
+"233
+[; ;shank.c: 233:     {
+[v _menu_display_screen `(v ~T0 @X0 1 ef ]
+"234
+[; ;shank.c: 234:         key_count = 0;
+{
+[e :U _menu_display_screen ]
+[f ]
+"235
+[; ;shank.c: 235:         wait = 0;
+[e ( _clcd_print (2 , :s 9C -> + -> 128 `i -> 0 `i `uc ]
+"236
+[; ;shank.c: 236:         blink = 0;
+[e ( _clcd_print (2 , :s 10C -> + -> 192 `i -> 0 `i `uc ]
+"237
+[; ;shank.c: 237:         flag = 0;
+[e ( _clcd_print (2 , :s 11C -> + -> 144 `i -> 0 `i `uc ]
+"238
+[; ;shank.c: 238:         temp =0;
+[e ( _clcd_print (2 , :s 12C -> + -> 208 `i -> 0 `i `uc ]
+"239
+[; ;shank.c: 239:         key = 0xFF;
+[e :UE 147 ]
+}
+"241
+[; ;shank.c: 241:         clcd_print(" TEMP = ", (0xC0 + 0));
+[v _set_temp `(v ~T0 @X0 1 ef2`uc`i ]
+"242
+[; ;shank.c: 242: 
+{
+[e :U _set_temp ]
+"241
+[; ;shank.c: 241:         clcd_print(" TEMP = ", (0xC0 + 0));
+[v _key `uc ~T0 @X0 1 r1 ]
+[v _reset_flag `i ~T0 @X0 1 r2 ]
+"242
+[; ;shank.c: 242: 
+[f ]
+"243
+[; ;shank.c: 243:         clcd_print("*:CLEAR  #:ENTER", (0xD0 + 0));
+[v F1047 `uc ~T0 @X0 1 s key_count ]
+[v F1048 `uc ~T0 @X0 1 s blink ]
+[v F1049 `uc ~T0 @X0 1 s temp ]
+"244
+[; ;shank.c: 244:          }
+[v F1050 `i ~T0 @X0 1 s wait ]
+"245
+[; ;shank.c: 245: 
+[e $ ! == _reset_flag -> 16 `i 149  ]
+"246
+[; ;shank.c: 246: 
+{
+"247
+[; ;shank.c: 247:     if ((key != '*') && (key != '#') && (key != 0xFF))
+[e = F1047 -> -> 0 `i `uc ]
+"248
+[; ;shank.c: 248:     {
+[e = F1050 -> 0 `i ]
+"249
+[; ;shank.c: 249: 
+[e = F1048 -> -> 0 `i `uc ]
+"250
+[; ;shank.c: 250:         key_count++;
+[e = _flag -> -> 0 `i `uc ]
+"251
+[; ;shank.c: 251: 
+[e = F1049 -> -> 0 `i `uc ]
+"252
+[; ;shank.c: 252:         if(key_count <= 3)
+[e = _key -> -> 255 `i `uc ]
+"253
+[; ;shank.c: 253:         {
+[e ( _clcd_print (2 , :s 13C -> + -> 128 `i -> 0 `i `uc ]
+"254
+[; ;shank.c: 254:             temp = temp*10 + key;
+[e ( _clcd_print (2 , :s 14C -> + -> 192 `i -> 0 `i `uc ]
+"256
+[; ;shank.c: 256:         }
+[e ( _clcd_print (2 , :s 15C -> + -> 208 `i -> 0 `i `uc ]
+"257
+[; ;shank.c: 257: 
+}
+[e :U 149 ]
+"260
+[; ;shank.c: 260:     {
+[e $ ! && && != -> _key `ui -> 42 `ui != -> _key `ui -> 35 `ui != -> _key `i -> 255 `i 150  ]
+"261
+[; ;shank.c: 261:         temp =0;
+{
+"263
+[; ;shank.c: 263:     }
+[e ++ F1047 -> -> 1 `i `uc ]
+"265
+[; ;shank.c: 265:     {
+[e $ ! <= -> F1047 `i -> 3 `i 151  ]
+"266
+[; ;shank.c: 266:         clear_screen();
+{
+"267
+[; ;shank.c: 267: 
+[e = F1049 -> + * -> F1049 `i -> 10 `i -> _key `i `uc ]
+"269
+[; ;shank.c: 269:         clcd_print("Time Rem.= ",(0x90 + 0));
+}
+[e :U 151 ]
+"271
+[; ;shank.c: 271:         sec = 18;
+}
+[e $U 152  ]
+"272
+[; ;shank.c: 272:         while(sec != 0)
+[e :U 150 ]
+[e $ ! == -> _key `ui -> 42 `ui 153  ]
+"273
+[; ;shank.c: 273:         {
+{
+"274
+[; ;shank.c: 274: 
+[e = F1049 -> -> 0 `i `uc ]
+"275
+[; ;shank.c: 275: 
+[e = F1047 -> -> 0 `i `uc ]
+"276
+[; ;shank.c: 276: 
+}
+[e $U 154  ]
+"277
+[; ;shank.c: 277:     clcd_putch((sec/10)%10 + '0', (0x90 + 12));
+[e :U 153 ]
+[e $ ! == -> _key `ui -> 35 `ui 155  ]
+"278
+[; ;shank.c: 278:     clcd_putch((sec%10) + '0', (0x90 + 13));
+{
+"279
+[; ;shank.c: 279:     }
+[e ( _clear_screen ..  ]
+"281
+[; ;shank.c: 281: 
+[e ( _clcd_print (2 , :s 16C -> + -> 128 `i -> 0 `i `uc ]
+"282
+[; ;shank.c: 282:         if(sec == 0)
+[e ( _clcd_print (2 , :s 17C -> + -> 144 `i -> 0 `i `uc ]
+"283
+[; ;shank.c: 283:         {
+[e = _TMR2ON -> -> 1 `i `b ]
+"284
+[; ;shank.c: 284:             flag = 1;
+[e = _sec -> -> 18 `i `uc ]
+"285
+[; ;shank.c: 285:             TMR2ON = 0;
+[e $U 156  ]
+[e :U 157 ]
+"286
+[; ;shank.c: 286: 
+{
+"290
+[; ;shank.c: 290:         }
+[e ( _clcd_putch (2 , -> + -> % / -> _sec `i -> 10 `i -> 10 `i `ui -> 48 `ui `uc -> + -> 144 `i -> 12 `i `uc ]
+"291
+[; ;shank.c: 291: 
+[e ( _clcd_putch (2 , -> + -> % -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 144 `i -> 13 `i `uc ]
+"292
+[; ;shank.c: 292: 
+}
+[e :U 156 ]
+"285
+[; ;shank.c: 285:             TMR2ON = 0;
+[e $ != -> _sec `i -> 0 `i 157  ]
+[e :U 158 ]
+"295
+[; ;shank.c: 295:     {
+[e $ ! == -> _sec `i -> 0 `i 159  ]
+"296
+[; ;shank.c: 296:       wait = 0;
+{
+"297
+[; ;shank.c: 297:       blink = !blink;
+[e = _flag -> -> 1 `i `uc ]
+"298
+[; ;shank.c: 298: 
+[e = _TMR2ON -> -> 0 `i `b ]
+"303
+[; ;shank.c: 303:     }
+}
+[e :U 159 ]
+"306
+[; ;shank.c: 306:      {
+}
+[e :U 155 ]
+[e :U 154 ]
+[e :U 152 ]
+"307
+[; ;shank.c: 307:      clcd_print(" ", (0xC0 + 8));
+[e $ ! == ++ F1050 -> 1 `i -> 15 `i 160  ]
+"308
+[; ;shank.c: 308: 
+{
+"309
+[; ;shank.c: 309: 
+[e = F1050 -> 0 `i ]
+"310
+[; ;shank.c: 310: 
+[e = F1048 -> -> ! != -> F1048 `i -> 0 `i `i `uc ]
+"313
+[; ;shank.c: 313:  }
+[e ( _clcd_putch (2 , -> + -> / -> F1049 `i -> 100 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 8 `i `uc ]
+"314
+[; ;shank.c: 314: void set_time(unsigned char key, int reset_flag )
+[e ( _clcd_putch (2 , -> + -> % / -> F1049 `i -> 10 `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 9 `i `uc ]
+"315
+[; ;shank.c: 315: {
+[e ( _clcd_putch (2 , -> + -> % -> F1049 `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 10 `i `uc ]
+"316
+[; ;shank.c: 316:     static unsigned char key_count, blink_pos, blink;
+}
+[e :U 160 ]
+"318
+[; ;shank.c: 318:     if( reset_flag == 0x10 )
+[e $ ! != -> F1048 `i -> 0 `i 161  ]
+"319
+[; ;shank.c: 319:     {
+{
+"320
+[; ;shank.c: 320:        key_count = 0;
+[e ( _clcd_print (2 , :s 18C -> + -> 192 `i -> 8 `i `uc ]
+"324
+[; ;shank.c: 324:        wait = 0;
+}
+[e :U 161 ]
+"326
+[; ;shank.c: 326:        key = 0xFF;
+[e :UE 148 ]
+}
+"327
+[; ;shank.c: 327:     clcd_print("SET TIME (MM:SS)", (0x80 + 0));
+[v _set_time `(v ~T0 @X0 1 ef2`uc`i ]
+"328
+[; ;shank.c: 328:     clcd_print("TIME- ", (0xC0 + 0));
+{
+[e :U _set_time ]
+"327
+[; ;shank.c: 327:     clcd_print("SET TIME (MM:SS)", (0x80 + 0));
+[v _key `uc ~T0 @X0 1 r1 ]
+[v _reset_flag `i ~T0 @X0 1 r2 ]
+"328
+[; ;shank.c: 328:     clcd_print("TIME- ", (0xC0 + 0));
+[f ]
+"329
+[; ;shank.c: 329: 
+[v F1054 `uc ~T0 @X0 1 s key_count ]
+[v F1055 `uc ~T0 @X0 1 s blink_pos ]
+[v F1056 `uc ~T0 @X0 1 s blink ]
+"330
+[; ;shank.c: 330:     clcd_print("*:CLEAR #:ENTER", (0xD0 + 0));
+[v F1057 `i ~T0 @X0 1 s wait ]
+"331
+[; ;shank.c: 331: 
+[e $ ! == _reset_flag -> 16 `i 163  ]
+"332
+[; ;shank.c: 332:     }
+{
+"333
+[; ;shank.c: 333: 
+[e = F1054 -> -> 0 `i `uc ]
+"334
+[; ;shank.c: 334:     if ((key != '*') && (key != '#') && (key != 0xFF))
+[e = _sec -> -> 0 `i `uc ]
+"335
+[; ;shank.c: 335:     {
+[e = _min -> -> 0 `i `uc ]
+"336
+[; ;shank.c: 336: 
+[e = F1055 -> -> 0 `i `uc ]
+"337
+[; ;shank.c: 337:         key_count++;
+[e = F1057 -> 0 `i ]
+"338
+[; ;shank.c: 338: 
+[e = F1056 -> -> 0 `i `uc ]
+"339
+[; ;shank.c: 339:         if(key_count <= 2)
+[e = _key -> -> 255 `i `uc ]
+"340
+[; ;shank.c: 340:         {
+[e ( _clcd_print (2 , :s 19C -> + -> 128 `i -> 0 `i `uc ]
+"341
+[; ;shank.c: 341:             sec = sec*10 + key;
+[e ( _clcd_print (2 , :s 20C -> + -> 192 `i -> 0 `i `uc ]
+"343
+[; ;shank.c: 343: 
+[e ( _clcd_print (2 , :s 21C -> + -> 208 `i -> 0 `i `uc ]
+"345
+[; ;shank.c: 345:         else if(key_count > 2 && key_count <= 4 )
+}
+[e :U 163 ]
+"347
+[; ;shank.c: 347:             min = min*10 + key;
+[e $ ! && && != -> _key `ui -> 42 `ui != -> _key `ui -> 35 `ui != -> _key `i -> 255 `i 164  ]
+"348
+[; ;shank.c: 348:             blink_pos = 1;
+{
+"350
+[; ;shank.c: 350: 
+[e ++ F1054 -> -> 1 `i `uc ]
+"352
+[; ;shank.c: 352:     else if(key == '*')
+[e $ ! <= -> F1054 `i -> 2 `i 165  ]
+"353
+[; ;shank.c: 353:     {
+{
+"354
+[; ;shank.c: 354:       if( blink_pos == 0)
+[e = _sec -> + * -> _sec `i -> 10 `i -> _key `i `uc ]
+"355
+[; ;shank.c: 355:       {
+[e = F1055 -> -> 0 `i `uc ]
+"357
+[; ;shank.c: 357:           key_count = 0;
+}
+[e $U 166  ]
+"358
+[; ;shank.c: 358:       }
+[e :U 165 ]
+[e $ ! && > -> F1054 `i -> 2 `i <= -> F1054 `i -> 4 `i 167  ]
+"359
+[; ;shank.c: 359:       else if( blink_pos == 1)
+{
+"360
+[; ;shank.c: 360:       {
+[e = _min -> + * -> _min `i -> 10 `i -> _key `i `uc ]
+"361
+[; ;shank.c: 361:         min = 0;
+[e = F1055 -> -> 1 `i `uc ]
+"362
+[; ;shank.c: 362:         key_count = 2;
+}
+[e :U 167 ]
+[e :U 166 ]
+"364
+[; ;shank.c: 364:     }
+}
+[e $U 168  ]
+"365
+[; ;shank.c: 365:     else if(key == '#')
+[e :U 164 ]
+[e $ ! == -> _key `ui -> 42 `ui 169  ]
+"366
+[; ;shank.c: 366:     {
+{
+"367
+[; ;shank.c: 367:         clear_screen();
+[e $ ! == -> F1055 `i -> 0 `i 170  ]
+"368
+[; ;shank.c: 368:         operation_flag = 0x07;
+{
+"369
+[; ;shank.c: 369:         RC2 = 1;
+[e = _sec -> -> 0 `i `uc ]
+"370
+[; ;shank.c: 370: 
+[e = F1054 -> -> 0 `i `uc ]
+"371
+[; ;shank.c: 371:         TMR2ON = 1;
+}
+[e $U 171  ]
+"372
+[; ;shank.c: 372:     }
+[e :U 170 ]
+[e $ ! == -> F1055 `i -> 1 `i 172  ]
+"373
+[; ;shank.c: 373: 
+{
+"374
+[; ;shank.c: 374:     if(wait++ == 15)
+[e = _min -> -> 0 `i `uc ]
+"375
+[; ;shank.c: 375:     {
+[e = F1054 -> -> 2 `i `uc ]
+"376
+[; ;shank.c: 376:       wait = 0;
+}
+[e :U 172 ]
+[e :U 171 ]
+"377
+[; ;shank.c: 377:       blink = !blink;
+}
+[e $U 173  ]
+"378
+[; ;shank.c: 378: 
+[e :U 169 ]
+[e $ ! == -> _key `ui -> 35 `ui 174  ]
+"379
+[; ;shank.c: 379: 
+{
+"380
+[; ;shank.c: 380:     clcd_putch( min/10 + '0', (0xC0 + 6));
+[e ( _clear_screen ..  ]
+"381
+[; ;shank.c: 381:     clcd_putch( min%10 + '0', (0xC0 + 7));
+[e = _operation_flag -> 7 `i ]
+"382
+[; ;shank.c: 382:     clcd_putch(':', (0xC0 + 8));
+[e = _RC2 -> -> 1 `i `b ]
+"384
+[; ;shank.c: 384: 
+[e = _TMR2ON -> -> 1 `i `b ]
+"385
+[; ;shank.c: 385:     clcd_putch( sec/10 + '0', (0xC0 + 9));
+}
+[e :U 174 ]
+[e :U 173 ]
+[e :U 168 ]
+"387
+[; ;shank.c: 387:     }
+[e $ ! == ++ F1057 -> 1 `i -> 15 `i 175  ]
+"388
+[; ;shank.c: 388: 
+{
+"389
+[; ;shank.c: 389:      if(blink)
+[e = F1057 -> 0 `i ]
+"390
+[; ;shank.c: 390:      {
+[e = F1056 -> -> ! != -> F1056 `i -> 0 `i `i `uc ]
+"393
+[; ;shank.c: 393:              case 0:
+[e ( _clcd_putch (2 , -> + -> / -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 6 `i `uc ]
+"394
+[; ;shank.c: 394:                  clcd_print(" ", (0xC0 + 9));
+[e ( _clcd_putch (2 , -> + -> % -> _min `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 7 `i `uc ]
+"395
+[; ;shank.c: 395:                 break;
+[e ( _clcd_putch (2 , -> -> 58 `ui `uc -> + -> 192 `i -> 8 `i `uc ]
+"398
+[; ;shank.c: 398:                  break;
+[e ( _clcd_putch (2 , -> + -> / -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 9 `i `uc ]
+"399
+[; ;shank.c: 399:          }
+[e ( _clcd_putch (2 , -> + -> % -> _sec `i -> 10 `i `ui -> 48 `ui `uc -> + -> 192 `i -> 10 `i `uc ]
+"400
+[; ;shank.c: 400: 
+}
+[e :U 175 ]
+"402
+[; ;shank.c: 402:      }
+[e $ ! != -> F1056 `i -> 0 `i 176  ]
+"403
+[; ;shank.c: 403: 
+{
+"404
+[; ;shank.c: 404: }
+[e $U 178  ]
+"405
+{
+"406
+[e :U 179 ]
+"407
+[e ( _clcd_print (2 , :s 22C -> + -> 192 `i -> 9 `i `uc ]
+"408
+[e $U 177  ]
+"409
+[e :U 180 ]
+"410
+[e ( _clcd_print (2 , :s 23C -> + -> 192 `i -> 6 `i `uc ]
+"411
+[e $U 177  ]
+"412
+}
+[e $U 177  ]
+[e :U 178 ]
+[e [\ F1055 , $ -> 0 `i 179
+ , $ -> 1 `i 180
+ 177 ]
+[e :U 177 ]
+"415
+}
+[e :U 176 ]
+"417
+[e :UE 162 ]
+}
+[a 12C 52 46 83 116 97 114 116 0 ]
+[a 5C 32 54 46 83 116 111 112 0 ]
+[a 9C 49 46 77 105 99 114 111 0 ]
+[a 11C 51 46 67 111 110 118 101 99 116 105 111 110 0 ]
+[a 10C 50 46 71 114 105 108 108 0 ]
+[a 4C 32 53 46 80 97 117 115 101 0 ]
+[a 3C 32 52 46 83 116 97 114 116 47 82 101 115 117 109 101 0 ]
+[a 21C 42 58 67 76 69 65 82 32 35 58 69 78 84 69 82 0 ]
+[a 15C 42 58 67 76 69 65 82 32 32 35 58 69 78 84 69 82 0 ]
+[a 19C 83 69 84 32 84 73 77 69 32 40 77 77 58 83 83 41 0 ]
+[a 13C 32 83 69 84 32 84 69 77 80 32 40 111 67 41 0 ]
+[a 6C 32 84 105 109 101 32 85 112 32 33 33 0 ]
+[a 1C 32 112 111 119 101 114 32 61 32 57 48 48 119 32 0 ]
+[a 8C 32 77 105 99 114 111 119 97 118 101 32 79 118 101 110 32 0 ]
+[a 16C 32 80 114 101 45 72 101 97 116 105 110 103 32 0 ]
+[a 7C 32 80 111 119 101 114 105 110 103 32 79 78 32 0 ]
+[a 17C 84 105 109 101 32 82 101 109 46 61 32 0 ]
+[a 14C 32 84 69 77 80 32 61 32 0 ]
+[a 2C 32 84 73 77 69 32 61 32 0 ]
+[a 20C 84 73 77 69 45 32 0 ]
+[a 18C 32 0 ]
+[a 22C 32 0 ]
+[a 23C 32 0 ]
