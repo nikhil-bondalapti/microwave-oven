@@ -16,7 +16,7 @@ This project simulates a **Microwave Oven** using a **PIC Microcontroller**, fea
 - **Simulation:** PICSIMLAB  
 - **Compiler:** MPLAB XC8  
 - **Programming Language:** Embedded C  
-- **Display:** 16x2 LCD  
+- **Display:** 16x4 LCD  
 - **Input:** 4x4 Keypad  
 - **Additional Components:** Buzzer, Relay, LED Indicators  
 
